@@ -1,3 +1,129 @@
+@media screen and (min-width:420px) and (max-width: 1023px) {
+  *{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-size: 2vw;
+  }
+  img{
+    height: 150px;
+  }
+  h1{
+    font-size: 10vw;
+  }
+  h3{
+    font-size: 3vw;
+    padding-top: 20px;
+  }
+  #lezioni,
+  #why{
+    background-color: rgb(25, 25, 46);
+    color: white;
+  }
+  #lezioni .row{
+    float: none;
+    width: 100%;
+    margin-top: 0;
+    padding: 0 5px 10px 5px;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right{
+    width: 100%;
+  }
+  #lezioni .row img{
+    display: flex;
+  }
+  #lezioni .left,
+  #lezioni .right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+
+  }
+  h1{    
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+  }
+  
+  #lezioni h3{
+    font-size: 8vw;
+    align-self: center;
+    padding-top: 0;
+  }
+  #lezioni .left>*,
+  #lezioni .right>*{
+    width: 50%;
+  }
+
+  #lezioni .right img,
+  #lezioni .left img{
+    width: auto;
+    margin-bottom: 20px;
+  }
+
+  #steps .row,
+  #why .row{
+    width: 100%;
+    margin: 0;
+    padding-top: 30px;
+  }
+  
+  #steps .row>.left, 
+  #steps .row>.right {
+    padding: 20px 10px;
+    width: 50vw;    
+  }
+  #steps .row>.central{
+    display: none;
+  }
+  hr{
+    display: none;
+  }
+
+  #why .row img{
+    filter: invert(1);
+  }
+  #steps .row>.left::after{
+    content: '. Scrivi gratuitamente e senza impegno ai maestri che ti interessano e fai tutte le domande che vuoi!';
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 50%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  #lezioni .right,
+  #why .row>.second{
+    flex-direction: row-reverse;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+  #why h3{
+    width: calc(90vw - 150px);
+    align-self: center;
+    font-size:6vw;
+    padding-left: 10px;    
+    }
+  #why .row img{
+    margin: 20px 0 20px 0;
+  }
+}
+
+
+
+
 @media screen and (max-width:419px) {
   *{
     padding: 0;
@@ -42,3 +168,4 @@
     padding-top: 15px;
   }
 }
+
